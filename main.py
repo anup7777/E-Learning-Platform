@@ -25,11 +25,11 @@ def recommend(course):
 
     return recommended_course_names
 
-st.markdown("<h2 style='text-align: center; color: blue;'>Coursera Course Recommendation System</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: green;'>Course Recommendation System</h2>", unsafe_allow_html=True)
 
 course_list = courses_list['course_name'].values
 selected_course = st.selectbox(
-    "Type or select a course you like :",
+    "Select A Course You Like :",
     courses_list
 )
 
